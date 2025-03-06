@@ -1,0 +1,50 @@
+# Visual Studio
+.vs/
+
+# Build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+
+# Logs & Debugging
+*.log
+*.tlog
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Configuration files
+appsettings.*.json
+secrets.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# Resharper files
+*.DotSettings.user
+
+# IIS Express
+iisexpress/
+
+# Generated files
+objd/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Git
+.gitignore
