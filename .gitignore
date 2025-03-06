@@ -1,47 +1,25 @@
-# Build outputs
+# Archivos y carpetas de sistema
 bin/
 obj/
-
-# User-specific files
 *.user
+*.lock
 *.suo
-*.vsp
-*.vspx
+*.pdb
+*.log
 *.vspscc
 *.vssscc
-
-# Logs & Debugging
-*.log
-*.tlog
-
-# NuGet packages
-packages/
-*.nupkg
-
-# Configuration files
-# appsettings.*.json
-secrets.json
-
-# Entity Framework Migrations
-Migrations/
-
-# Rider & JetBrains
+.vscode/
 .idea/
-*.sln.iml
+.ionide/
 
-# Resharper files
-*.DotSettings.user
-
-# IIS Express
-iisexpress/
-
-# Generated files
-objd/
-
-# Windows
-Thumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+# Dependencias y compilación
+node_modules/
+dist/
+build/
+packages/
+project.lock.json
+project.assets.json
+project.fragment.lock.json
 
 
 # Archivos de Visual Studio
@@ -53,3 +31,6 @@ Thumbs.db
 *.aps
 *.sdf
 *.cache
+
+# Publicaciones y despliegues
+logs/
