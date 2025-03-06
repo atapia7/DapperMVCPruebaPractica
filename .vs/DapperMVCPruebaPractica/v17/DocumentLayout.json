@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FE75B5E-C0E8-450E-A654-157BEE3224DA}|DapperMVCPruebaPractica\\DapperMVCPruebaPractica.csproj|c:\\proyectos_net\\dappermvcpruebapractica\\dappermvcpruebapractica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FE75B5E-C0E8-450E-A654-157BEE3224DA}|DapperMVCPruebaPractica\\DapperMVCPruebaPractica.csproj|solutionrelative:dappermvcpruebapractica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FE75B5E-C0E8-450E-A654-157BEE3224DA}|DapperMVCPruebaPractica\\DapperMVCPruebaPractica.csproj|c:\\proyectos_net\\dappermvcpruebapractica\\dappermvcpruebapractica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2FE75B5E-C0E8-450E-A654-157BEE3224DA}|DapperMVCPruebaPractica\\DapperMVCPruebaPractica.csproj|solutionrelative:dappermvcpruebapractica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,19 +59,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVCPruebaPractica\\appsettings.json",
+              "RelativeDocumentMoniker": "DapperMVCPruebaPractica\\appsettings.json",
+              "ToolTip": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVCPruebaPractica\\appsettings.json",
+              "RelativeToolTip": "DapperMVCPruebaPractica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T20:09:31.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVCPruebaPractica\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DapperMVCPruebaPractica\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVCPruebaPractica\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DapperMVCPruebaPractica\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-06T15:30:54.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVCPruebaPractica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "DapperMVCPruebaPractica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -75,12 +96,11 @@
               "RelativeToolTip": "DapperMVCPruebaPractica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T15:30:52.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T15:30:52.671Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AsignaturaDto.cs",
               "DocumentMoniker": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVC.Data\\Models\\DTOs\\AsignaturaDto.cs",
               "RelativeDocumentMoniker": "DapperMVC.Data\\Models\\DTOs\\AsignaturaDto.cs",
@@ -88,12 +108,11 @@
               "RelativeToolTip": "DapperMVC.Data\\Models\\DTOs\\AsignaturaDto.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwBQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T05:38:20.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T05:38:20.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AsignaturaRepository.cs",
               "DocumentMoniker": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVC.Data\\Repository\\AsignaturaRepository.cs",
               "RelativeDocumentMoniker": "DapperMVC.Data\\Repository\\AsignaturaRepository.cs",
@@ -101,12 +120,11 @@
               "RelativeToolTip": "DapperMVC.Data\\Repository\\AsignaturaRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADgvxMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T05:26:45.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T05:26:45.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GetAll.cshtml",
               "DocumentMoniker": "C:\\Proyectos_NET\\DapperMVCPruebaPractica\\DapperMVCPruebaPractica\\Views\\TAsignatura\\GetAll.cshtml",
               "RelativeDocumentMoniker": "DapperMVCPruebaPractica\\Views\\TAsignatura\\GetAll.cshtml",
@@ -114,8 +132,7 @@
               "RelativeToolTip": "DapperMVCPruebaPractica\\Views\\TAsignatura\\GetAll.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-06T05:26:00.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T05:26:00.495Z"
             }
           ]
         },

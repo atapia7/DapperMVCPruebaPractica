@@ -22,7 +22,7 @@ packages/
 *.nupkg
 
 # Configuration files
-appsettings.*.json
+# appsettings.*.json
 secrets.json
 
 # Entity Framework Migrations
