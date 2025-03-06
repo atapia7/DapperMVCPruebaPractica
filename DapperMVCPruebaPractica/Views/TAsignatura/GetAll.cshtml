@@ -1,0 +1,74 @@
+﻿@model DapperMVC.Data.Models.DTOs.PagedResult<DapperMVC.Data.Models.DTOs.AsignaturaDto>
+<h3 class="mb-4">Lista de Asignaturas del Grado de Enfermeria</h3>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered text-center align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Código</th>
+                <th>Tipo</th>
+                <th>ECTS</th>
+                <th>Asignatura</th>
+                <th>Personalizable</th>
+                <th>Horas</th>
+                <th>Modalidad</th>
+                <th>Publicar Web</th>
+                <th>Fecha Alta</th>
+                <th>Fecha Modificación</th>
+                <th>Usuario Modificación</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Data)
+            {
+                <tr>
+                    <td>@item.IdAsignatura</td>
+                    <td>@item.CodAsignatura</td>
+                    <td>@item.IdTipoAsignatura</td>
+                    <td>@item.ECTS</td>
+                    <td class="text-start">@item.Asignatura</td>
+                    <td>@(item.EsPersonalizable ? "Sí" : "No")</td>
+                    <td>@item.Horas</td>
+                    <td>@item.IdModalidad</td>
+                    <td>@(item.PublicarWeb ? "Sí" : "No")</td>
+                    <td>@item.FechaAlta.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                    <td>@item.FechaModificacion.ToString("dd/MM/yyyy HH:mm:ss")</td>
+                    <td>@item.IdUsuarioModificacion</td>
+                    <td class="text-start">
+                        <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-edit"></i> Edit</a>
+                        <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i> Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Paginación -->
+<nav>
+    <ul class="pagination">
+        @if (Model.PageNumber > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("GetAll", new { pageNumber = Model.PageNumber - 1, pageSize = Model.PageSize })">Anterior</a>
+            </li>
+        }
+
+        <li class="page-item disabled">
+            <span class="page-link">Página @Model.PageNumber de @Math.Ceiling((double)Model.TotalRecords / Model.PageSize)</span>
+        </li>
+
+        @if (Model.PageNumber * Model.PageSize < Model.TotalRecords)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("GetAll", new { pageNumber = Model.PageNumber + 1, pageSize = Model.PageSize })">Siguiente</a>
+            </li>
+        }
+
+    </ul>
+
+</nav>
+        <b> Total de registros: @Model.TotalRecords </b>
