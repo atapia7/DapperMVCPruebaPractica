@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DapperMVCPruebaPractica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de7f15ef0ddeb6e4a1a40e879f1f87725afbde54")]
 [assembly: System.Reflection.AssemblyProductAttribute("DapperMVCPruebaPractica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DapperMVCPruebaPractica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
